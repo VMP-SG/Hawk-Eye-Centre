@@ -1,0 +1,6 @@
+[submodule "NAISC-Frontend"]
+	path = NAISC-Frontend
+	url = https://github.com/VMP-SG/NAISC-Frontend.git
+[submodule "NAISC-Backend"]
+	path = NAISC-Backend
+	url = https://github.com/VMP-SG/NAISC-Backend.git
