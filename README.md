@@ -286,5 +286,5 @@ The following members contributed to the success of this project.
 
 1. [Cai Xinjie Noah](https://www.linkedin.com/in/noah-xinjie-cai/) (Frontend Engineer)
 2. [Chay Hui Xiang](https://www.linkedin.com/in/hui-xiang/) (Team Lead, Full-Stack Engineer)
-3. Ian Fong (Backend Engineer)
+3. [Ian Fong](https://www.linkedin.com/in/ian-fong-45a146265/) (Backend Engineer)
 4. [Mao Kaiwen](https://www.linkedin.com/in/mkw68768211/) (Backend & Machine Learning Engineer)
