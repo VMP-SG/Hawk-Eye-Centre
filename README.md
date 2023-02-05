@@ -272,11 +272,11 @@ The webpage will be hosted at [http://127.0.0.1:5173/](http://127.0.0.1:5173/).
 
 # Credits
 
-## Resources
+### Resources
 We used the following resources to aid in the development of our project.
 - [PeekingDuck](https://peekingduck.readthedocs.io/en/latest/) for their object detection API
 
-## Contributors
+### Contributors
 The following members contributed to the success of this project. 
 
 1. [Cai Xinjie](https://www.linkedin.com/in/noah-xinjie-cai/) (Frontend Engineer)
