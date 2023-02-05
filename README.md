@@ -12,32 +12,49 @@ Our integrated Hawk-Eye Centre Dashboard can be found at this [link](https://nai
 ### For Linux
 2. Run the following lines of code
 ```bash
+cd NAISC-Backend/
 sudo apt-get install ffmpeg libsm6 libxext6 libgeos-dev -y
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 python3 main.py
+cd ../
 ```
 
 ### For MacOS
 2. Run the following lines of code
 ```bash
+cd NAISC-Backend/
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 python3 main.py
+cd ../
 ```
 
 ### For Windows
 2. Run the following lines of code 
 ```bash
+cd NAISC-Backend/
 python -m venv .venv
 .venv/Scripts/activate
 pip install -r requirements.txt
 python main.py
+cd ../
 ```
 
 The server will be hosted at [http://127.0.0.1:3000](http://127.0.0.1:3000) by default.
+
+3. Ensure that the backend server is running before running the data dashboard. To run the data dashboard, install yarn at [https://classic.yarnpkg.com/lang/en/docs/install/](https://classic.yarnpkg.com/lang/en/docs/install/)
+   
+4. Run the following commands
+```bash
+cd NAISC-Frontend/
+yarn
+yarn dev
+```
+
+The webpage will be hosted at [http://127.0.0.1:5173/](http://127.0.0.1:5173/) by default.
 
 ## 🎯 Endpoints
 
@@ -263,18 +280,6 @@ Our integrated dashboard can be found at this [link](https://naisc.vmpsg.xyz).
    - Empty Tables Analytics
    - Popular Stalls
    - Stalls with Shortest Queue
-## 🛠️ To Run
-
-1. Install yarn at [https://classic.yarnpkg.com/lang/en/docs/install/](https://classic.yarnpkg.com/lang/en/docs/install/)
-
-2. Run the following commands
-```bash
-yarn
-yarn dev
-```
-
-The webpage will be hosted at [http://127.0.0.1:5173/](http://127.0.0.1:5173/).
-
 # Credits
 
 ### Resources
