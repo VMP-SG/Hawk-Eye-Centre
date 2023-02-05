@@ -2,6 +2,7 @@
 
 Hawk-Eye Centre is an **integrated data source** powered by Machine Learning capabilities. Using computer vision models and pipelines from the PeekingDuck library, Hawk-Eye Centre can process large volumes of relevant information like people, furniture and cutlery from video feeds. Interested parties may then utilise this data API to perform higher level analysis and service. 
 
+Hawk-Eye Centre's APIs can be accessed via this [link](https://naiscbackend.vmpsg.xyz).
 Our integrated Hawk-Eye Centre Dashboard can be found at this [link](https://naisc.vmpsg.xyz).
 
 ## 🛠️ To Run
@@ -54,8 +55,8 @@ Response (JSON):
 ```js
 {
   "A": {
-    "raw_frame": [[[168, 181, 192], [172, 184, 195], [176, 188, 202]]],
-    "labelled_frame": [[[[172, 183, 194], [174, 186, 196], [178, 191, 201]]]],
+    "raw_frame": "iVBORw0KGgoAAAANSUhEUgAABDgAAALQCAIAAA",
+    "labelled_frame": "iVBORw0KGgoAAAANSUhEUgAABDgAAALQCAIAAA",
     "total_people_count": 0,
     "zone_people_count": [3, 0, 1, 1, 2, 0, 2],
     "zone_mapping": [100, 101, 102, 103, 104, 105, 0]
@@ -128,7 +129,7 @@ Response:
 #### `GET /count/zone/<zone_id>`
 Description:
 ```
-Streams people count from all specified Hawker Centre zone
+Streams people count for each table from specified Hawker Centre zone
 ```
 URL Parameter(s):
 
