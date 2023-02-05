@@ -37,7 +37,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-The server will be hosted at [http://127.0.0.1:5000](http://127.0.0.1:5000) by default.
+The server will be hosted at [http://127.0.0.1:3000](http://127.0.0.1:3000) by default.
 
 ## 🎯 Endpoints
 
