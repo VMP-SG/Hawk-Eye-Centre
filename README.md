@@ -2,6 +2,8 @@
 
 Hawk-Eye Centre is an **integrated data source** powered by Machine Learning capabilities. Using computer vision models and pipelines from the PeekingDuck library, Hawk-Eye Centre can process large volumes of relevant information like people, furniture and cutlery from video feeds. Interested parties may then utilise this data API to perform higher level analysis and service. 
 
+Our integrated Hawk-Eye Centre Dashboard can be found at this [link](https://naisc.vmpsg.xyz).
+
 ## 🛠️ To Run
 
 1. Download Python at [https://www.python.org/downloads/](https://www.python.org/downloads/)
@@ -243,6 +245,8 @@ Response:
 # Hawk-Eye Centre Dashboard
 
 One of the many use cases of Hawk-Eye Centre is an online dashboard providing accurate live information on the crowdedness level in selected hawker centres.
+
+Our integrated dashboard can be found at this [link](https://naisc.vmpsg.xyz).
 
 ## ✨ Features
 
