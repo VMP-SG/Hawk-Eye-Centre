@@ -5,7 +5,22 @@ Hawk-Eye Centre is an **integrated data source** powered by Machine Learning cap
 Hawk-Eye Centre's APIs can be accessed via this [link](https://naiscbackend.vmpsg.xyz).
 Our integrated Hawk-Eye Centre Dashboard can be found at this [link](https://naisc.vmpsg.xyz).
 
-## 🛠️ To Run
+## 🛠️ To Run (Docker)
+
+1. Clone the repository recursively
+```bash
+git clone --recurse-submodules https://github.com/VMP-SG/NAISC-Backend.git
+```
+
+2. Run the containers with docker-compose
+```bash
+docker-compose up
+```
+
+Hawk-Eye Centre will be hosted at [http://127.0.0.1:3000](http://127.0.0.1:3000) by default.
+The online dashboard will be hosted at [http://127.0.0.1:5173/](http://127.0.0.1:5173/) by default.
+
+## 🛠️ To Run (Without Docker)
 
 1. Download Python at [https://www.python.org/downloads/](https://www.python.org/downloads/)
 
@@ -43,7 +58,7 @@ python main.py
 cd ../
 ```
 
-The server will be hosted at [http://127.0.0.1:3000](http://127.0.0.1:3000) by default.
+Hawk-Eye Centre will be hosted at [http://127.0.0.1:3000](http://127.0.0.1:3000) by default.
 
 3. Ensure that the backend server is running before running the data dashboard. To run the data dashboard, install yarn at [https://classic.yarnpkg.com/lang/en/docs/install/](https://classic.yarnpkg.com/lang/en/docs/install/)
    
@@ -54,9 +69,37 @@ yarn
 yarn dev
 ```
 
-The webpage will be hosted at [http://127.0.0.1:5173/](http://127.0.0.1:5173/) by default.
+The online dashboard will be hosted at [http://127.0.0.1:5173/](http://127.0.0.1:5173/) by default.
 
 ## 🎯 Endpoints
+
+### `GET /startAPI`
+Description:
+```
+Starts API data streams
+```
+Response Content-Type:
+```
+text/plain
+```
+Response:
+```
+API started!
+```
+
+### `GET /stopAPI`
+Description:
+```
+Stops API data streams
+```
+Response Content-Type:
+```
+text/plain
+```
+Response:
+```
+API stopped!
+```
 
 #### `GET /api`
 Description:
