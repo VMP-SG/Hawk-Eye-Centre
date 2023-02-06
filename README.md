@@ -16,7 +16,6 @@ git clone --recurse-submodules https://github.com/VMP-SG/NAISC-Backend.git
 ```bash
 docker-compose up
 ```
-
 Hawk-Eye Centre will be hosted at [http://127.0.0.1:3000](http://127.0.0.1:3000) by default.
 The online dashboard will be hosted at [http://127.0.0.1:5173/](http://127.0.0.1:5173/) by default.
 
