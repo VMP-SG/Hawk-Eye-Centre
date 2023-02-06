@@ -21,10 +21,15 @@ The online dashboard will be hosted at [http://127.0.0.1:5173/](http://127.0.0.1
 
 ## 🛠️ To Run (Without Docker)
 
-1. Download Python at [https://www.python.org/downloads/](https://www.python.org/downloads/)
+1. Download Python (Only versions 3.6-3.9 supported) at [https://www.python.org/downloads/](https://www.python.org/downloads/)
+2. Clone the repository recursively
+
+```bash
+git clone --recurse-submodules https://github.com/VMP-SG/NAISC-Backend.git
+```
 
 ### For Linux
-2. Run the following lines of code
+3. Run the following lines of code
 ```bash
 cd NAISC-Backend/
 sudo apt-get install ffmpeg libsm6 libxext6 libgeos-dev -y
@@ -36,7 +41,7 @@ cd ../
 ```
 
 ### For MacOS
-2. Run the following lines of code
+3. Run the following lines of code
 ```bash
 cd NAISC-Backend/
 python3 -m venv .venv
@@ -47,7 +52,7 @@ cd ../
 ```
 
 ### For Windows
-2. Run the following lines of code 
+3. Run the following lines of code 
 ```bash
 cd NAISC-Backend/
 python -m venv .venv
@@ -59,9 +64,9 @@ cd ../
 
 Hawk-Eye Centre will be hosted at [http://127.0.0.1:3000](http://127.0.0.1:3000) by default.
 
-3. Ensure that the backend server is running before running the data dashboard. To run the data dashboard, install yarn at [https://classic.yarnpkg.com/lang/en/docs/install/](https://classic.yarnpkg.com/lang/en/docs/install/)
+4. Ensure that the backend server is running before running the data dashboard. To run the data dashboard, install yarn at [https://classic.yarnpkg.com/lang/en/docs/install/](https://classic.yarnpkg.com/lang/en/docs/install/)
    
-4. Run the following commands
+5. Run the following commands
 ```bash
 cd NAISC-Frontend/
 yarn
