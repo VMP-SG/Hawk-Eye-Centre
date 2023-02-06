@@ -9,7 +9,7 @@ Our integrated Hawk-Eye Centre Dashboard can be found at this [link](https://nai
 
 1. Clone the repository recursively
 ```bash
-git clone --recurse-submodules https://github.com/VMP-SG/NAISC-Backend.git
+git clone --recurse-submodules https://github.com/VMP-SG/Hawk-Eye-Centre.git
 ```
 
 2. Run the containers with docker-compose
@@ -25,7 +25,7 @@ The online dashboard will be hosted at [http://127.0.0.1:5173/](http://127.0.0.1
 2. Clone the repository recursively
 
 ```bash
-git clone --recurse-submodules https://github.com/VMP-SG/NAISC-Backend.git
+git clone --recurse-submodules https://github.com/VMP-SG/Hawk-Eye-Centre.git
 ```
 
 ### For Linux
